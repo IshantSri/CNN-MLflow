@@ -7,3 +7,5 @@ entry_points:
     parameters:
       
     command: "python main.py"
+
+  get_data:
