@@ -34,4 +34,5 @@ def val_data(config: dict) ->None:
                 print(f"{path_to_img} is bad !")
                 bad_data_path = os.path.join(BAD_DATA_DIR, imgs)
                 shutil.move(path_to_img, bad_data_path)
-                #logging.info(f'move bad file from {path_to_img} to {bad_data_path}')
+                logging.info(f'move bad file from {path_to_img} to {bad_data_path}')
+                logging.info(e)

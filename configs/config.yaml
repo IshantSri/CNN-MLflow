@@ -7,3 +7,5 @@ data:
   unzip_data_dir: data
   parent_dir: PetImages
   bad_data_dir: bad_data
+  model_dir : model_dir
+  model_file : model.h5
